@@ -1,4 +1,4 @@
-# Ubuntu on Termux
+# Ubuntu 20.04 LTS on Termux
 [![Build Status](https://img.shields.io/github/stars/dylanmeca/ubuntu-android.svg)](https://github.com/dylanmeca/ubuntu-termux)
 [![License](https://img.shields.io/github/license/dylanmeca/ubuntu-android.svg)](https://github.com/dylanmeca/ubuntu-termux/blob/main/LICENSE)
 [![dylanmeca](https://img.shields.io/badge/author-dylanmeca-green.svg)](https://github.com/dylanmeca)
@@ -21,7 +21,7 @@ To install Ubuntu in Termux you need to run these commands:
 ```shell
 pkg install wget -y
 pkg install proot -y
-wget https://raw.githubusercontent.com/dylanmeca/ubuntu-termux/main/install.sh
+wget https://github.com/magadan/Ubuntu-Focal-20.04-LTS-for-Termux/main/install.sh
 chmod +x install.sh
 ./install.sh
 ```
